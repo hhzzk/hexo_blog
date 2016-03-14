@@ -70,3 +70,10 @@ deploy:
   type: git
   repository: git@github.com:hhzzk/hhzzk.github.io.git
   branch: master
+
+keywords:
+    hhzzk
+    python
+    云计算
+    算法
+    技术
