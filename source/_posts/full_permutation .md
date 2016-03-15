@@ -8,7 +8,7 @@ categories:
   - 原创
   - 算法系列
 thumbnailImagePosition: left
-thumbnailImage: http://7xrt06.com1.z0.glb.clouddn.com/16-3-13/35334370.jpg
+thumbnailImage: http://7xrt06.com1.z0.glb.clouddn.com/16-3-15/25444741.jpg
 ---
 
 全排列的讲解及代码实现

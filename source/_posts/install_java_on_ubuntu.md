@@ -9,7 +9,7 @@ categories:
   - 原创
   - Linux命令系列
 thumbnailImagePosition: left
-thumbnailImage: http://7xrt06.com1.z0.glb.clouddn.com/16-3-13/8340578.jpg
+thumbnailImage: http://7xrt06.com1.z0.glb.clouddn.com/16-3-15/67344102.jpg
 ---
 
 在Ubuntu上安装Oracle Java 8 有两种方法，一种是通过PPA，一种是通过官方安装文件。

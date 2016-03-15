@@ -8,7 +8,7 @@ categories:
   - 原创
   - Linux命令系列
 thumbnailImagePosition: left
-thumbnailImage: http://7xrt06.com1.z0.glb.clouddn.com/16-3-13/8340578.jpg
+thumbnailImage: http://7xrt06.com1.z0.glb.clouddn.com/16-3-15/56095188.jpg
 ---
 
 在 Ubuntu 上安装 Eclipse 并且固定在启动栏中
