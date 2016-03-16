@@ -13,6 +13,7 @@ thumbnailImage: http://7xrt06.com1.z0.glb.clouddn.com/16-3-16/76513528.jpg
 ---
 正则表达式笔记
 <!-- excerpt -->
+<!-- toc -->
 #### 1. 元字符
 
 | 元字符 |用途|
@@ -116,7 +117,7 @@ thumbnailImage: http://7xrt06.com1.z0.glb.clouddn.com/16-3-16/76513528.jpg
 |(?(name)yes\no)|如果命名为name的组捕获到了内容，使用yes作为表达式；否则使用no
 |(?(name)yes)|同上，只是使用空表达式作为no
 
-####学习教程
+#### 学习教程
 [正则表达式](http://www.regular-expressions.info/)
 [教程](http://deerchao.net/tutorials/regex/regex.htm)
 [常用正则表达式](http://deerchao.net/tutorials/regex/common.htm)
