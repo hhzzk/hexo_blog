@@ -1,4 +1,4 @@
-title: "技术日志:多核"
+title: "技术日志: 多核"
 date: 2015-03-13 17:30:57
 tags:
   - 多核
@@ -9,8 +9,10 @@ thumbnailImagePosition: left
 thumbnailImage: http://7xrt06.com1.z0.glb.clouddn.com/16-3-20/76370097.jpg
 ---
 
+多核并行计算相关问题, Java常量定义
+<!-- excerpt -->
+
 #### 一、多核并行计算：
-<!--more-->
 1. 每一个进程都有自己的调用栈（call stack）（用来存储自己的局部变量）、有自己的程序计数器、自己的静态区、堆上new的对象。而每一个线程都有自己的调用栈和程序计数器，并且只能自己访问，但线程直接可以共享静态区和堆上的对象。
 2. 进程间通信 （IPC，InterProcess Communication） 除了共享内存（shared memory）之外，还有 管道、消息队列、 信号 、套接口等。
 

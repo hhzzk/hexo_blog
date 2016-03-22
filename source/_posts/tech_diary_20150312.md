@@ -1,4 +1,4 @@
-title: "技术日志:linux防火墙,oracle安装"
+title: "技术日志: linux防火墙,oracle安装"
 date: 2015-03-12 15:50:57
 tags:
   - ubuntu
