@@ -6,17 +6,17 @@ categories:
   - 原创
   - 提高效率
 thumbnailImagePosition: left
-thumbnailImage:http://7xrt06.com1.z0.glb.clouddn.com/16-3-29/42431250.jpg
+thumbnailImage: http://7xrt06.com1.z0.glb.clouddn.com/16-3-29/42431250.jpg
 ---
 
 Vincent Driessen 提出的一个比较好的Git分支模型
-<!-- more -->
+<!-- excerpt -->
 <!-- toc -->
 
 ## 一个较好的Git分支模型
 [Vincent Driessen](http://nvie.com/posts/a-successful-git-branching-model/)基于自己项目开发的经验提出了一个比较好的Git分支模型：
 
-![gitflow branch](https://ihower.tw/blog/wp-content/uploads/2011/02/Screen-shot-2009-12-24-at-11.32.03.png)
+![gitflow branch](http://7xrt06.com1.z0.glb.clouddn.com/16-3-29/90200279.jpg)
 
 在这个模型中定义了**主要分支**和**辅助分支**两类分支。其中主要分支包括`master分支`和`develop分支`，这两个分支在项目的整个生命周期中存在；辅助分支包括`feature分支`、`release分支`和`hotfix分支`，主要是为了解决一些特定的问题而建立的分支，这些分支随着问题的解决而销毁。
 
@@ -46,7 +46,7 @@ Vincent Driessen 提出的一个比较好的Git分支模型
 
 如果某个功能的开发由单个工程师完成，则`feature分支`代码可以保存在开发者自己的代码库中而不强制提交到远程代码库里，如果需要多人开发某一功能则`feature分支`需要push到远端仓库。
 
-![feature branch](http://www.ituring.com.cn/download/01YiLAQlsJXe)
+![feature branch](http://7xrt06.com1.z0.glb.clouddn.com/16-3-29/48693137.jpg)
 
 #### release 分支
 `release分支`主要用于版本的发布，当某一版本的所有功能开发完成并且测试通过，需要使用`release分支`进行发布，`release分支`基于`develop分支`创建。在这个分支上的代码允许做小的缺陷修正、准备发布版本所需的各项说明信息（版本号、发布时间、编译时间等等）。最后`release分支`会合并回`master分支`和`develop分支`，并且打上tag然后删除。
@@ -58,7 +58,7 @@ Vincent Driessen 提出的一个比较好的Git分支模型
 #### hotfix 分支
 `hotfix分支`主要用于紧急bug的修复。在运行环境中的版本有可能会出现bug，需要紧急修复，这时候用到`hotfix分支`。`hotfix分`支由`master分支`创建，当bug修复完毕，`hotfix分支`需要合并回`develop分支`和`master分支`，并且打上tag然后删除。
 
-![hotfix分支](http://www.ituring.com.cn/download/01YiLAROllzF)
+![hotfix分支](http://7xrt06.com1.z0.glb.clouddn.com/16-3-29/91850324.jpg)
 
 ## Git Flow 
 
