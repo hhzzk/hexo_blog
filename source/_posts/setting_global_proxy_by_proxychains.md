@@ -1,5 +1,5 @@
-title: "利用`proxychains v4`在ubuntu下设置全局代理"
-date: 2015-04-10 19:50:57
+title: "利用proxychains v4在ubuntu下设置全局代理"
+date: 2015-06-10 19:50:57
 tags:
   - Linux命令
   - proxychains
