@@ -48,7 +48,25 @@ proxychains4 应用名
 wget google.com  // 无法获取index.html
 proxychains4 wget googel.com  // 可以获得index.html
 ```
-安装了此版本的`proxychains`之后，`ERROR: ld.so: object ‘libproxychains.so.3’ from LD_PRELOAD cannot be preloaded: ignored`这个错误也会解决。
+但是在使用此方法执行 `ssh` ,经常出现连接成功后在很短的时间内断开的现象，解决方法如下：
+第一种方案在客户端设置：
+```shell
+sudo vim /etc/ssh/ssh_config
+
+// 添加下面语句，这样客户端会每个10s发送一个keepAive请求。
+ServerAliveInterval 10
+```
+
+第二种方案在服务器端设置：
+```shell
+sudo vim /etc/ssh/ssh_config
+
+// 添加下面的语句
+ClientAliveInterval 60
+```
+第二种方案需要重启`ssh`服务（`sudo /etc/init.d/ssh restart`）。
+
+安装了此版本的 `proxychains` 之后，`ERROR: ld.so: object ‘libproxychains.so.3’ from LD_PRELOAD cannot be preloaded: ignored`这个错误也会解决。
 
 ---
 （EOF）

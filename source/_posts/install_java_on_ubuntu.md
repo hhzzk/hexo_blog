@@ -2,12 +2,12 @@ title: "如何在Ubuntu上安装Oracle Java 8"
 date: 2014-11-27 19:50:57
 tags:
   - ubuntu
-  - Java安装
+  - Java
   - Linux命令
   - JDK
 categories:
   - 原创
-  - Linux命令系列
+  - 软件安装
 thumbnailImagePosition: left
 thumbnailImage: http://7xrt06.com1.z0.glb.clouddn.com/16-3-15/67344102.jpg
 ---

@@ -2,11 +2,11 @@ title: "如何在Ubuntu上安装Eclipse 4.4 (Luna)"
 date: 2014-12-7 15:50:57
 tags:
   - ubuntu
-  - Eclipse安装
+  - Eclipse
   - Linux命令
 categories:
   - 原创
-  - Linux命令系列
+  - 软件安装
 thumbnailImagePosition: left
 thumbnailImage: http://7xrt06.com1.z0.glb.clouddn.com/16-3-15/56095188.jpg
 ---
