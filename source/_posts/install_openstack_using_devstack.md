@@ -1,5 +1,5 @@
 title: "Install OpenStack on ubuntu server 14.04 using devstack"
-date: 2015-09-16 10:50:50
+date: 2015-10-1 10:50:50
 tags:
   - ubuntu
   - Openstack
