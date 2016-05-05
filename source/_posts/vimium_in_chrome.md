@@ -11,7 +11,7 @@ thumbnailImage: http://7xrt06.com1.z0.glb.clouddn.com/16-4-10/45563707.jpg
 
 介绍一个Chrome插件Vimium，它可以让我们像Vim一样操作Chrome。
 <!-- excerpt -->
-Vim的设计初衷是操作者不必将手移开键盘，所有的操作都可以由键盘完成，这也是Vim高效从而被程序员钟爱的原因之一。Chrome应该是大部分程序员的最爱，简介、快速、调试方便。如果能像Vim一样操作Chrome，不用在键盘鼠标之间来回切换，那效率肯定会大大的提高。
+Vim的设计初衷是操作者不必将手移开键盘，所有的操作都可以由键盘完成，这也是Vim高效从而被程序员钟爱的原因之一。Chrome应该是大部分程序员的最爱，简洁、快速、调试方便。如果能像Vim一样操作Chrome，不用在键盘鼠标之间来回切换，那效率肯定会大大的提高。
 这里介绍一个Chrome插件Vimium，它可以让我们像Vim一样操作Chrome。
 插件地址：[Google web store](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
 如果无法翻墙访问，可以到 github 下载 [vimium](https://github.com/philc/vimium/releases)
